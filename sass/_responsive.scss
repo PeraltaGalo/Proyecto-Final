@@ -1,0 +1,48 @@
+@media(max-width:991px){
+    .logo_oculto{
+        display: none;
+    }
+    .header{
+        #title_header{
+            font-size: 65px;
+            text-align:center;
+        }
+        .inicio__parrafo{
+            text-align: center;
+            font-size: 20px;
+            padding: 10px 15px 10px 15px;
+        }
+        .title{
+            font-size: 40px;
+        }
+    }
+    #title__nosotros{
+        font-size: 50px;
+    }
+    #decoration2{
+        font-size: 50px;
+    }
+    #decoration{
+        font-size: 50px;
+    }
+    .nosotros__parrafo{
+        padding:0;
+    }
+    #serv_galeriaycontacto{
+        font-size: 25px;
+    }
+    .serv{
+        text-align: center;
+        font-size: 15px;
+        margin: 0 0 30px 0;
+    }
+    .contenedor-imagenes{
+        flex-wrap: wrap;
+    }
+    .imagenes{
+        min-width: 300px;
+    }
+    .mp{
+        width: 10rem;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilo-.css">
+    <title>ingrid</title>
+</head>
+<body>
+        <!-- nav bar bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <img src="../img/logo0-copia.png" alt="" class="logo_oculto">
+            <button class="navbar-toggler container-fluid pr-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <img src="../img/logo0.png" alt="logo-oculto" class="logo_oculto2">
+                <i class="fa-solid fa-bars float-right"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto align-items-center ">
+                <li class="nav-item active">
+                <a class="nav-link  p-3 " href="../index.html">inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link  p-3 " href="../paginas/servicios.html">servicios <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link  p-3" href="../paginas/nosotros.html">nosotros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link  p-3 " href="../paginas/galeria.html">galeria <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link p-3" href="../paginas/contacto.html">contacto <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </nav>
+    <!-- FIN NAV -->
+
+        <main class="main-contacto">
+            <div class="title-contat-caja">
+                <h1 class="titCont">Contacto</h1>
+            </div>
+
+            <form class="contForm" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <input class="form-input" type="email" placeholder="email" required>
+                <input class="form-input" type="text" placeholder="asunto del mail">
+                <textarea class="form-input" name="tex" cols="30" rows="10" placeholder="mensaje..."></textarea>                
+                <input class="form-input buttom" type="reset" value="Limpiar" class="bt">
+                <input class="form-input buttom" type="submit" value="Enviar" class="bt">
+            </form>
+            <div class="maps__contacto" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.8148845259075!2d-58.26012332340831!3d-32.47764274835656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afda47fe643d09%3A0x2516c3b732f4563c!2s4%20del%20Nte.%20Bis%2C%20Concepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1671590753356!5m2!1ses-419!2sar" width="85%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mp"></iframe>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="caja__logo__footer">
+                <img src="../img/logo0.png" alt="logo-footer" class="logo__footer">
+            </div>
+            <div class="redes">
+                <p class="redes__text">redes sociales</p>
+                    <div>
+                        <a href="https://www.instagram.com/" target="_black"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_black"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=3442528949" target="_black"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+            </div>
+            <div class="caja_derechos_autor">
+                <p class="derechos_autor">© 2022 Galo Coder</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>

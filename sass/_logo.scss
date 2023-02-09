@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    & img{
+        height: 150px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+.header_nosotros_btrap{
+    background: url(../img/background2.jpeg);
+    font-family: $font1;
+    padding-bottom: 50px;
+    #title_nosotros_btrap{
+        color:white;
+        font-size: 55px;
+        text-align: center;
+        text-shadow: -2px 0 3px #ef0d69;
+        text-transform: uppercase;
+        font-family:$font1;
+        font-weight: 600px;
+    }
+    #subtitle_nosotros_btrap{
+        
+        color:white;
+        font-size: 40px;
+        padding-right: 30px;
+        font-family: $font1;
+        font-weight: 600px;
+        text-align: center;
+    }
+    #texto_nosotros_btrap{
+        font-size: 18px;
+        font-family: $font1;
+        color:white;
+        text-align: center;
+    }
+}

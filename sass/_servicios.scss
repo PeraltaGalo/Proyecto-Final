@@ -1,0 +1,38 @@
+.main_btrap {
+    background: url("../img/background.jpeg");
+    .nuestros{
+        text-transform: uppercase;
+        text-shadow: -2px 0 3px #ffffff;
+    }
+    #title_serv_btrap{
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: -2px 0 3px #ffffff;
+    }
+    .fa-brands{
+        font-size: 30px;
+        transition: all 0.8s;
+        margin: 10px 15px 0 15px;
+        cursor: pointer;
+    }
+    #wsp_serv_btrap{
+        color: #565454;
+        }
+    .color1{
+        background: none;
+        border-bottom: solid  $color2; 
+    }
+    .color4{
+        background: none;
+        border-bottom: solid  $color2;
+        border-bottom: 0;
+    }
+    p{
+        font-family: $font1;
+        font-size: 18px;
+    }
+}
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }

@@ -1,0 +1,178 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: $font1;
+}
+.header{
+    height: 100vh;
+    background: url(../img/fondo2.jpeg) no-repeat center;
+    background-size:cover;
+    font-family: $font1;
+    .title{
+        @extend %title;
+    }
+    #title_header{
+        text-shadow:-3px 2px 10px white;
+        font-size: 100px;
+        font-family: $font1;
+        text-transform: uppercase;
+    }
+    .inicio__parrafo{
+        font-family: $font1;
+        font-size: 30px;
+        color: #ffffff; 
+        font-weight: 600;
+    }
+    .btn-home{    
+        .btn{
+            @include btn(#17171758, white);
+        }
+    }
+}
+.content2{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.servicios{
+    text-align: center;
+    height: auto;
+    background:url(../img/background.jpeg);
+    .title{
+        @extend %title;
+    } 
+    #decoration2{
+        text-shadow: -0.5px 0px 1.5px $color2;
+    }
+    .serv{
+        color: $color2;
+        font-family:$font1;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .box-container{
+        display:grid;
+        grid-gap:10px;
+        grid-template-columns:repeat(auto-fit,minmax(300px,auto));
+        .box{
+            background:#8d7a7a88;
+            text-align: center;
+            border-radius: 1rem;
+            margin: 2rem;
+            padding: 50px;
+            h3{
+                margin: 30px;
+                font-size: 20px;
+                color: $color2;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+            .servicios__img__icono{
+                height: 100px;
+                width: 100px;
+                background-color: #dcdcdc;
+                border-radius: 50px;
+                border:2px black solid;
+            }
+            .inicioservicio__corte__title{
+                font-size: 30px;
+                font-family:$font1;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+.nosotros{
+    height: auto;
+    background: url(../img/background2.jpeg);
+    padding: 50px;
+    .title{
+        @extend %title
+    } 
+    #title__nosotros{
+        color: rgb(226, 220, 220);
+        font-family: $font1;
+    }
+    .nosotros__parrafo{
+        margin-bottom: 40px;
+        font-size: 19px;
+        color: rgb(226, 220, 220);
+        padding: 0 100px; 
+        text-align: center;
+        font-family: $font1;
+    }
+    .btn{
+        @include btn (#17171758,rgb(226, 220, 220));
+        :hover{
+            background: none;
+            border-style:dotted ;
+            color:white;
+            background-color: #17171758;
+            border: 1.5px solid white;
+            transition: all 0.8s;
+        }
+    }
+}
+.galeria{
+    @extend %galeria;
+    .title{
+        @extend %title
+    } 
+    #decoration{
+        text-shadow: -0.5px 0px 7px white;
+    }
+    .serv{
+        color: $color2;
+        font-family:$font1;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .btn{
+        @include btn (#17171758,white);
+        &:hover{
+            background: none;
+            border-style:dotted ;
+            color:white;
+            background-color: #17171758;
+            border: 1.5px solid white;
+            transition: all 0.8s;
+        }
+    }
+}
+.contacto{
+    background: url(../img/background.jpeg);
+    padding-bottom: 0;
+    height: 25rem;
+    .title{
+        @extend %title;
+        color: rgb(4, 4, 4);
+        font-family: $font1;
+    }
+    #decoration2{
+        text-shadow: -0.5px 0px 1.5px rgb(0, 0, 0);
+    }
+    .serv{
+        color: #000000;
+        font-family: $font1;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .btn{
+        @include btn (#17171758,white);
+        &:hover{
+            background: none;
+            border-style:dotted ;
+            color:white;
+            background-color: #17171758;
+            border: 1.5px solid white;
+            transition: all 0.8s;
+        }
+    }
+}

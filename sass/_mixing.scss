@@ -1,0 +1,9 @@
+@mixin btn($backg,$color1){
+    display: flex;
+    padding: 10px 40px;
+    color:$color1;
+    background-color: $backg;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 3px;
+}

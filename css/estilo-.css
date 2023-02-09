@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.galeria {
+  height: 80vh;
+  background: url(../img/tipos-degradados-hombre.jpeg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.contacto .title, .galeria .title, .nosotros .title, .servicios .title, .header .title {
+  padding: 40px 0px 40px 0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-contacto {
+  background: url("../img/background22.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main-contacto .titCont {
+  padding: 3rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.924);
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  text-shadow: -2px 0 3px #ef0d69;
+}
+
+.contForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 3rem;
+}
+.contForm .form-input {
+  width: 85%;
+  padding: 0.9rem;
+  border-radius: 5px;
+  background-color: rgba(150, 146, 146, 0.6117647059);
+  color: rgb(255, 255, 255);
+}
+.contForm .buttom {
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contForm .buttom:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.contForm ::placeholder {
+  color: rgb(250, 249, 249);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.maps__contacto {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.maps__contacto iframe {
+  height: 40%;
+  width: 80%;
+  filter: grayscale(1);
+}
+
+/* FOOTER INICIO */
+.footer {
+  display: flex;
+  /* justify-content:center; */
+  background: #171717;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.footer .caja__logo__footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer .caja__logo__footer .logo__footer {
+  width: 124px;
+  height: 140px;
+}
+.footer .redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .redes .redes__text {
+  margin: 4px;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: #ffffff solid;
+  color: white;
+}
+.footer .redes .fa-brands {
+  color: azure;
+  font-size: 30px;
+  transition: all 0.8s;
+  margin: 10px 15px 0 15px;
+  cursor: pointer;
+}
+.footer .redes .fa-brands:hover {
+  color: #717070;
+}
+.footer .derechos_autor {
+  color: rgba(255, 253, 253, 0.6196078431);
+  margin: 20px;
+  text-align: center;
+}
+
+/* Footer bootstrap */
+.footer__btrap {
+  background-color: #171717;
+}
+.footer__btrap div .redes_btrap {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+.footer__btrap div .border_btrap {
+  width: 230px;
+  border-bottom: solid white;
+}
+.footer__btrap div .caja-fa-bs .fa-brands {
+  color: azure;
+  font-size: 30px;
+  transition: all 0.8s;
+  margin: 10px 15px 0 15px;
+  cursor: pointer;
+}
+.footer__btrap div .caja-fa-bs .fa-brands:hover {
+  color: #717070;
+}
+.footer__btrap div .derechos_autor_btrap {
+  padding: 10px;
+  color: rgba(255, 253, 253, 0.6196078431);
+  text-align: center;
+}
+
+.navbar {
+  background-color: #171717;
+}
+.navbar .fa-bars {
+  color: white;
+  font-size: 40px;
+}
+.navbar a {
+  padding: 20px 20px;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: all 0.7s;
+}
+.navbar .nav-link {
+  color: white !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.7s;
+  font-family: sans-serif;
+}
+.navbar .nav-link:hover {
+  background: #717070;
+}
+
+.header_nosotros_btrap {
+  background: url(../img/background2.jpeg);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 50px;
+}
+.header_nosotros_btrap #title_nosotros_btrap {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  text-shadow: -2px 0 3px #ef0d69;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600px;
+}
+.header_nosotros_btrap #subtitle_nosotros_btrap {
+  color: white;
+  font-size: 40px;
+  padding-right: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600px;
+  text-align: center;
+}
+.header_nosotros_btrap #texto_nosotros_btrap {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+.main_btrap {
+  background: url("../img/background.jpeg");
+}
+.main_btrap .nuestros {
+  text-transform: uppercase;
+  text-shadow: -2px 0 3px #ffffff;
+}
+.main_btrap #title_serv_btrap {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: -2px 0 3px #ffffff;
+}
+.main_btrap .fa-brands {
+  font-size: 30px;
+  transition: all 0.8s;
+  margin: 10px 15px 0 15px;
+  cursor: pointer;
+}
+.main_btrap #wsp_serv_btrap {
+  color: #565454;
+}
+.main_btrap .color1 {
+  background: none;
+  border-bottom: solid black;
+}
+.main_btrap .color4 {
+  background: none;
+  border-bottom: solid black;
+  border-bottom: 0;
+}
+.main_btrap p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  height: 100vh;
+  background: url(../img/fondo2.jpeg) no-repeat center;
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header #title_header {
+  text-shadow: -3px 2px 10px white;
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+.header .inicio__parrafo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.header .btn-home .btn {
+  display: flex;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+
+.content2 {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.servicios {
+  text-align: center;
+  height: auto;
+  background: url(../img/background.jpeg);
+}
+.servicios #decoration2 {
+  text-shadow: -0.5px 0px 1.5px black;
+}
+.servicios .serv {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.servicios .box-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+.servicios .box-container .box {
+  background: rgba(141, 122, 122, 0.5333333333);
+  text-align: center;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 50px;
+}
+.servicios .box-container .box h3 {
+  margin: 30px;
+  font-size: 20px;
+  color: black;
+}
+.servicios .box-container .box a {
+  text-decoration: none;
+  color: white;
+}
+.servicios .box-container .box .servicios__img__icono {
+  height: 100px;
+  width: 100px;
+  background-color: #dcdcdc;
+  border-radius: 50px;
+  border: 2px black solid;
+}
+.servicios .box-container .box .inicioservicio__corte__title {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+}
+
+.nosotros {
+  height: auto;
+  background: url(../img/background2.jpeg);
+  padding: 50px;
+}
+.nosotros #title__nosotros {
+  color: rgb(226, 220, 220);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nosotros .nosotros__parrafo {
+  margin-bottom: 40px;
+  font-size: 19px;
+  color: rgb(226, 220, 220);
+  padding: 0 100px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nosotros .btn {
+  display: flex;
+  padding: 10px 40px;
+  color: rgb(226, 220, 220);
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+.nosotros .btn :hover {
+  background: none;
+  border-style: dotted;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  border: 1.5px solid white;
+  transition: all 0.8s;
+}
+
+.galeria #decoration {
+  text-shadow: -0.5px 0px 7px white;
+}
+.galeria .serv {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.galeria .btn {
+  display: flex;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+.galeria .btn:hover {
+  background: none;
+  border-style: dotted;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  border: 1.5px solid white;
+  transition: all 0.8s;
+}
+
+.contacto {
+  background: url(../img/background.jpeg);
+  padding-bottom: 0;
+  height: 25rem;
+}
+.contacto .title {
+  color: rgb(4, 4, 4);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contacto #decoration2 {
+  text-shadow: -0.5px 0px 1.5px rgb(0, 0, 0);
+}
+.contacto .serv {
+  color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contacto .btn {
+  display: flex;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+.contacto .btn:hover {
+  background: none;
+  border-style: dotted;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.3450980392);
+  border: 1.5px solid white;
+  transition: all 0.8s;
+}
+
+.main_galeria {
+  height: auto;
+  width: 100%;
+  background: url("../img/background-galeria5.jpeg");
+  padding-bottom: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main_galeria .title_galeria {
+  text-transform: uppercase;
+  text-shadow: -2px 0 3px black;
+  font-size: 50px;
+  font-weight: 600px;
+  padding-top: 20px;
+  text-align: center;
+}
+.main_galeria #subtitle-galeria {
+  text-align: center;
+  font-weight: 400px;
+  font-size: 28px;
+}
+.main_galeria .contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.main_galeria .contenedor-imagenes .imagenes {
+  width: 30%;
+  height: 500px;
+  margin-bottom: 5px;
+}
+.main_galeria .contenedor-imagenes .imagenes img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+.main_galeria .contenedor-imagenes .imagenes .tiposdecorte {
+  font-size: 27px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+}
+.logo img {
+  height: 150px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+  .logo_oculto {
+    display: none;
+  }
+  .header #title_header {
+    font-size: 65px;
+    text-align: center;
+  }
+  .header .inicio__parrafo {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+  }
+  .header .title {
+    font-size: 40px;
+  }
+  #title__nosotros {
+    font-size: 50px;
+  }
+  #decoration2 {
+    font-size: 50px;
+  }
+  #decoration {
+    font-size: 50px;
+  }
+  .nosotros__parrafo {
+    padding: 0;
+  }
+  #serv_galeriaycontacto {
+    font-size: 25px;
+  }
+  .serv {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 30px 0;
+  }
+  .contenedor-imagenes {
+    flex-wrap: wrap;
+  }
+  .imagenes {
+    min-width: 300px;
+  }
+  .mp {
+    width: 10rem;
+  }
+}/*# sourceMappingURL=estilo-.css.map */
